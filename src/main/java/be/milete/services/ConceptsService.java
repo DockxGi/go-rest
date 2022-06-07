@@ -1,14 +1,27 @@
 package be.milete.services;
 
+import be.milete.domain.Concept;
 import be.milete.logging.Logger;
+import be.milete.repositories.ConceptRepository;
 import org.springframework.stereotype.Service;
+
+import javax.transaction.Transactional;
 
 import static be.milete.logging.TopicName.CONCEPT;
 
 @Service
 public class ConceptsService {
 
+    private final ConceptRepository repository;
+
+    public ConceptsService(ConceptRepository repository) {
+        this.repository = repository;
+    }
+
+    @Transactional
     public void createConcept(ConceptRequest request){
         Logger.log(CONCEPT, String.format("Service received request to create concept: %s", request.getWord()));
+        Concept concept = new Concept(request.getWord(), request.getDescription());
+        repository.save(concept);
     }
 }
