@@ -1,6 +1,7 @@
 package be.milete.restapi.concepts;
 
 import be.milete.domain.Concept;
+import be.milete.restapi.exceptions.ResourceNotFound;
 import be.milete.services.ConceptsService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +29,14 @@ public class ConceptsController {
     @PostMapping
     public void createConcept(@RequestBody @Validated ConceptJsonRequest request){
         service.createConcept(request);
+    }
+
+    @DeleteMapping("/{word}")
+    public void deleteConcept(@PathVariable("word") String word){
+        boolean anythingDeleted = service.deleteConcept(word);
+        if (!anythingDeleted){
+            throw new ResourceNotFound();
+        }
     }
 
     @GetMapping

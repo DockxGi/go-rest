@@ -1,3 +1,67 @@
+DELETE http://localhost:8080/concepts/atari
+
+<> 2022-06-11T232855.404.json
+
+###
+
+GET http://localhost:8080/concepts
+
+<> 2022-06-11T232847.200.json
+
+###
+
+DELETE http://localhost:8080/concepts/atari
+
+###
+
+GET http://localhost:8080/concepts
+
+<> 2022-06-11T232814.200.json
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+<> 2022-06-11T232809.404.json
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+<> 2022-06-11T232638.404.json
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+###
+
+DELETE http://localhost:8080/concepts/séki
+
+<> 2022-06-11T231613.500.json
+
+###
+
+GET http://localhost:8080/concepts
+
+<> 2022-06-11T231022.200.json
+
+###
+
+GET http://localhost:8080/concepts
+
+<> 2022-06-11T224146.200.json
+
+###
+
 GET http://localhost:8080/concepts
 
 <> 2022-06-11T223949.200.json

@@ -37,4 +37,10 @@ public class ConceptsService {
         }
         return conceptsList;
     }
+
+    @Transactional
+    public boolean deleteConcept(String word) {
+        int deleted = repository.deleteByWord(word);
+        return deleted > 0;
+    }
 }
