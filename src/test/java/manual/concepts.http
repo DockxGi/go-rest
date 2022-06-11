@@ -1,0 +1,12 @@
+POST http://localhost:8080/concepts
+Content-Type: application/json
+
+{
+  "word": "séki",
+  "description": "een onbesliste stand, waarin groepen leven zonder twee ogen"
+}
+
+###
+
+
+GET http://localhost:8080/concepts
