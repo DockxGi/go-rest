@@ -1,6 +1,8 @@
 package be.milete.restapi.concepts;
 
 import be.milete.domain.Concept;
+import be.milete.restapi.concepts.json.ConceptJsonRequest;
+import be.milete.restapi.concepts.json.ConceptJsonResponse;
 import be.milete.restapi.exceptions.ResourceNotFound;
 import be.milete.services.ConceptsService;
 import org.springframework.validation.annotation.Validated;

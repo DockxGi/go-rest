@@ -1,3 +1,164 @@
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "stone": "W",
+      "x": 3,
+      "y": 4
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "stone": "W",
+      "x": 3,
+      "y": 4
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "stone": "W",
+      "x": 3,
+      "y": 4
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    }
+  ]
+}
+
+<> 2022-07-18T224938.400.json
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    }
+  ]
+}
+
+<> 2022-07-18T224822.400.json
+
+###
+
+POST http://localhost:8080/concepts
+Content-Type: application/json
+
+{
+  "word": "atari",
+  "description": "een onbesliste stand, waarin groepen leven zonder twee ogen"
+}
+
+<> 2022-07-18T224701.500.json
+
+###
+
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    }
+  ]
+}
+
+<> 2022-07-18T224601.400.json
+
+###
+
 DELETE http://localhost:8080/concepts/atari
 
 <> 2022-06-11T232855.404.json

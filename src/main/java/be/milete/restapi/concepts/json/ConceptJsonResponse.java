@@ -1,4 +1,4 @@
-package be.milete.restapi.concepts;
+package be.milete.restapi.concepts.json;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

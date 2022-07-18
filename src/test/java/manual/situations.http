@@ -1,0 +1,18 @@
+POST http://localhost:8080/situations
+Content-Type: application/json
+
+{
+  "boardSize": 9,
+  "positions": [
+    {
+      "stone": "B",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "stone": "W",
+      "x": 3,
+      "y": 4
+    }
+  ]
+}
